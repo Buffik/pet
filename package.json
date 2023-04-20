@@ -1,0 +1,40 @@
+{
+	"name": "pet",
+	"version": "1.0.0",
+	"description": "start 13/04/2023",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node server.js",
+		"dev": "nodemon server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Buffik/pet.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Buffik/pet/issues"
+	},
+	"homepage": "https://github.com/Buffik/pet#readme",
+	"dependencies": {
+		"@prisma/client": "^4.12.0",
+		"@trivago/prettier-plugin-sort-imports": "^4.1.1",
+		"argon2": "^0.30.3",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"express-async-handler": "^1.2.0",
+		"jsonwebtoken": "^9.0.0",
+		"morgan": "^1.10.0",
+		"nodemon": "^2.0.22",
+		"prettier": "^2.8.7"
+	},
+	"devDependencies": {
+		"@faker-js/faker": "^7.6.0",
+		"pg": "^8.10.0",
+		"prisma": "^4.12.0"
+	}
+}
