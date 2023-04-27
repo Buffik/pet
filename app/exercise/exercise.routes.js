@@ -8,8 +8,8 @@ import {
 	getExercise,
 	updateExercise
 } from './exercise.controller.js';
-import { getExerciseLog } from './log/exercise-log.controller.get.js';
 import { createNewExerciseLog } from './log/exercise-log.controller.js';
+import { getExerciseLog } from './log/get-exercise-log.controller.js';
 import {
 	updateCompleteExerciseLog,
 	updateExerciseLogTime
